@@ -1,26 +1,61 @@
-# Sales Performance & Profitability Analysis
+# Sales Data Analysis (SQL + Excel)
 
-## Project Overview
-Analyzed 25,000+ sales records to uncover insights on profitability, customer behavior, product performance, and regional trends.
+## 📌 Problem Statement
 
-## Tools Used
-- Excel (Power Query)
-- MySQL
-- SQL
+Businesses often struggle to understand which products and categories drive profit, how discounts affect performance, and how sales trends change over time. This project aims to analyze sales data to uncover key business insights.
 
-## Key Insights
-- Technology has highest profit margin (~14.46%)
-- Furniture has high sales but low profitability (~6.65%)
-- Tables sub-category generates losses
-- Discounts above 20–25% lead to negative profit
-- Western Europe is top-performing region
-- Some regions generate consistent losses
+---
 
-## Recommendations
-- Limit discounts below 20–25%
-- Focus on high-margin products
-- Improve pricing in loss-making regions
-- Monitor loss-making sub-categories
+## 🎯 Objective
 
-## Outcome
-Demonstrates how data analysis can drive business decisions and improve profitability.
+* Identify top-performing categories and products
+* Analyze sales trends over time
+* Understand the relationship between discount and profit
+* Detect loss-making areas
+
+---
+
+## 🛠️ Tools Used
+
+* SQL (MySQL)
+* Excel
+
+---
+
+## 📊 Analysis Performed
+
+* Aggregated sales and profit by category and product
+* Year-over-year sales growth analysis (2012–2015)
+* Applied window functions (RANK, LAG) for ranking and trend analysis
+* Identified high-discount transactions and their impact
+
+---
+
+## 🔍 Key Insights
+
+* Technology category generated the highest profit
+* Furniture category had a higher proportion of losses
+* Strong seasonality observed with Q4 peaks and Q1 lows
+* Profitability declines significantly beyond ~20% discount and becomes negative after ~30%
+
+---
+
+## 💡 Business Impact
+
+* Helps businesses control excessive discounting
+* Identifies loss-making categories for improvement
+* Supports better inventory and sales planning
+
+---
+
+## 📁 Project Structure
+
+* data/ → dataset
+* sql/ → queries
+* excel/ → analysis
+
+---
+
+## 🚀 Conclusion
+
+This project demonstrates how SQL and Excel can be used together to extract meaningful business insights and support data-driven decision-making.
